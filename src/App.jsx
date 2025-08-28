@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/next"
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
@@ -27,6 +28,7 @@ const App = () => {
         <Education />
         <Contact />
         <Footer />
+        <Analytics />
       </div>
 
     </div>
