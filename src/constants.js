@@ -33,6 +33,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
+
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
@@ -61,7 +62,6 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
@@ -74,40 +74,50 @@ export const SkillsInfo = [
     ],
   },
   {
-    title: 'Backend',
+    title: "Libraries & Frameworks",
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
+      { name: "Pandas", logo: "/logos/pandas.png" },
+      { name: "NumPy", logo: "/logos/numpy.png" },
+      { name: "Matplotlib", logo: "/logos/matplotlib.png" },
+      { name: "Seaborn", logo: "/logos/seaborn.png" },
+      { name: "OpenCV", logo: "/logos/opencv.png" },
+      { name: "Scikit-learn", logo: "/logos/scikit.png" },
+      { name: "Redux", logo: reduxLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+     
     ],
   },
   {
-    title: 'Languages',
+   title: "Languages",
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      { name: "Java", logo: javaLogo },
+      { name: "Python", logo: pythonLogo},
+      { name: "C", logo: cLogo },
+      { name: "SQL", logo: mysqlLogo },
+      { name: "HTML/CSS", logo: htmlLogo },
+      { name: "React", logo: reactjsLogo },
+      { name: "Three.js", logo: "/logos/threejs.png" },
     ],
   },
-  {
-    title: 'Tools',
+  {title: "Developer Tools",
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "PyCharm", logo: "/logos/pycharm.png" },
+      { name: "IntelliJ", logo: "/logos/intellij.png" },
+      { name: "Jupyter", logo: "/logos/jupyter.png" },
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "MongoDB Compass", logo: mcLogo },
+      { name: "Vercel", logo: vercelLogo },
+      { name: "Figma", logo: figmaLogo },
+      { name: "SQL Server", logo: "/logos/sqlserver.png" },
+      { name: "Firebase", logo: figmaLogo },
+      { name: "WebStorm", logo: "/logos/webstorm.png" },
+      { name: "Excel", logo: "/logos/excel.png" },
+      { name: "Power BI", logo: "/logos/powerbi.png" },
     ],
   },
 ];
@@ -171,131 +181,96 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+  
+    school: "Chandigarh University, Mohali, Punjab",
+    date: "August 2022 - June 2026",
+    grade: "7.0 CGPA",
+    desc: "I am currently pursuing my Bachelor's degree in Computer Science and Engineering from Chandigarh University, Mohali. My coursework has provided me with a strong foundation in computer science concepts, programming, and problem-solving. I have studied subjects such as Data Structures, Algorithms, Database Management Systems, Web Development, and Software Engineering. I actively participate in projects and technical events, which are enhancing my practical knowledge and skills.",
+    degree: "Bachelor of Engineering - CSE",
     },
     {
-      id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+       id: 1,
+    
+    school: "Sri Chaitanya Vidya Niketan, Visakhapatnam, Andhra Pradesh",
+    date: "April 2020 - March 2022",
+    grade: "78%",
+    desc: "I completed my Senior Secondary (Class XII) education under the CBSE board from Sri Chaitanya Vidya Niketan, where I studied Physics, Chemistry, and Mathematics along with Computer Science. This phase strengthened my analytical and logical reasoning abilities, forming a strong base for my engineering journey.",
+    degree: "CBSE (XII) - PCM with Computer Science",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+    
+    school: "Gyandeep Public School, Samastipur, Bihar",
+    date: "April 2018 - March 2019",
+    grade: "82.2%",
+    desc: "I completed my Secondary (Class X) education under the CBSE board from Gyandeep Public School, Samastipur. My focus was on Science and Computer Applications, which further fueled my interest in technology and programming.",
+    degree: "CBSE (X) - Science with Computer Applications",
     },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
+   
   ];
   
   export const projects = [
     {
-      id: 0,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+       id: 0,
+    title: "Portfolio Website",
+    description:
+      "A dynamic portfolio website featuring an interactive and visually engaging interface. Utilized Three.js for 3D elements to enhance user experience. Deployed on Vercel for optimized performance and scalability.",
+    image: vercelLogo, // replace with your portfolio image import
+    tags: ["React", "Tailwind CSS", "JavaScript", "Three.js"],
+    github: "https://github.com/Harshrj1", // link to portfolio repo if available
+    webapp: "https://your-portfolio-link.vercel.app/", 
     },
     {
       id: 1,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+    title: "Automated Text Summarization Model",
+    description:
+      "An end-to-end text summarization application using Flask and Hugging Face’s BART model. Integrated Docker for containerization and GitHub Actions for CI/CD. Developed a fully responsive API for efficient summarization of long texts.",
+    image: springbootLogo, // replace with related logo
+    tags: ["Flask", "BART Model", "Docker", "CI/CD"],
+    github: "https://github.com/Harshrj1", // repo link if available
+    webapp: "", // add demo link if deployed
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    title: "E-KYC using Computer Vision",
+    description:
+      "An advanced E-KYC system incorporating OCR, facial recognition, and liveness detection. Enhanced identity verification accuracy and automated document validation using computer vision techniques.",
+    image: pythonLogo, // replace with related logo
+    tags: ["Python", "Deep Learning", "Flask", "Computer Vision"],
+    github: "https://github.com/Harshrj1", // repo link if available
+    webapp: "", // add deployed/demo link if available
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+    title: "JourneyJunction: Travel Website",
+    description:
+      "An interactive travel website integrating Google Maps, Places API, and RapidAPI. Implemented Travel Advisor and OpenWeather APIs for real-time location tracking, weather updates, and personalized travel recommendations.",
+    image: webverLogo, // replace with related logo
+    tags: ["React", "Next.js", "Google Maps API", "RapidAPI"],
+    github: "https://github.com/Harshrj1", // repo link if available
+    webapp: "", // add deployed/demo link if available
     },
+     
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    title: "UI/UX Design – Figma Project",
+    description:
+      "Designed an intuitive and modern user interface using Figma. Focused on wireframing, prototyping, and creating responsive layouts for both desktop and mobile views. Ensured a user-friendly design with clean typography, consistent color schemes, and smooth interactions.",
+    image: figmaLogo, // replace with your Figma thumbnail/logo
+    tags: ["Figma", "UI/UX", "Wireframing", "Prototyping"],
+    github: "",
+    webapp: "https://www.figma.com/file/your-design-link"
     },
+    
     {
       id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+    title: "Object Detection",
+    description:
+      "Real-time object detection models using CNN, Mask R-CNN, and YOLO. Optimized performance to achieve over 90% accuracy on COCO and ImageNet datasets.",
+    image: imagesearchLogo, // replace with related logo
+    tags: ["Python", "Deep Learning", "OpenCV", "TensorFlow", "PyTorch"],
+    github: "https://github.com/Harshrj1", // repo link if available
+    webapp: "", // demo link if available
     },
   ];  
+  
